@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="msdb" Class="PruebaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=LAPTOP-MGO3N6JP\SQLEXPRESS;Initial Catalog=msdb;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="msdbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.usuarios" Member="usuarios">
+    <Type Name="usuarios">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Apellido" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Edad" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="CC" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
